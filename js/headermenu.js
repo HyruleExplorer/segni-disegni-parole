@@ -28,7 +28,7 @@
             link: function ($scope, $pulsante) {
                 $pulsante.on('click', function () {
                     $("body").animate({
-                        scrollTop: $("#quadri").offset().top
+                        scrollTop: $("#quadri").offset().top - 50
                     }, "slow");
                 });
             }
@@ -41,7 +41,7 @@
             link: function ($scope, $pulsante) {
                 $pulsante.on('click', function () {
                     $("body").animate({
-                        scrollTop: $("#contatti").offset().top
+                        scrollTop: $("#contatti").offset().top - 50
                     }, "slow");
                 });
             }
