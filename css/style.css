@@ -1,0 +1,112 @@
+#container {
+    position: absolute;
+    float: left;
+    width: 100%;
+    left: 0px;
+    height: auto;
+    top: 0px;
+    margin: 0px;
+    background-color: #F75;
+    z-index: 0;
+}
+
+#gallery {
+    position: absolute;
+    float: left;
+    top: 0px;
+    width: 100%;
+    height: 720px;
+    left: 0%;
+    background-color: #111;
+    z-index: 0;
+}
+
+#gallery-img {
+    position: absolute;
+    float: left;
+    top: 0px;
+    background-color: #471;
+    width: 100%;
+    height: 100%;
+    transition: background 1.5s;
+}
+
+#welcome-txt {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    top: 40%;
+    left: 0px;
+    text-align: center;
+    font-family: fredericka-the-great;
+    font-size: 64px;
+    color: #ffffff;
+    z-index: 20;
+}
+
+#quadri {
+    position: absolute;
+    float: left;
+    z-index: 100;
+    top: 720px;
+    left: 0px;
+    height: 2000px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: #111;
+    text-align: center;
+}
+
+#quadri-txt {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    top: 60px;
+    left: 0px;
+    font-family: fredericka-the-great;
+    font-size: 64px;
+}
+
+#header-menu {
+    position: fixed;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    /* background-color: #663fde; */
+
+    opacity: 1;
+    visibility: visible;
+    z-index: 200;
+}
+
+#works-txt {
+    position: fixed;
+    float: left;
+    width: 300px;
+    height: 40px;
+    top: 10px;
+    left: 40px;
+    text-align: left;
+    font-family: fredericka-the-great;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#works-txt-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+#lavori {
+    position: absolute;
+    top: 720px;
+}
